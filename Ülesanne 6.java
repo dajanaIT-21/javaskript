@@ -1,3 +1,7 @@
+// Dajana
+// 27.02.2024
+// Ülesanne 6
+
 // Positiivne või negatiivne
 let number = -5;
 
