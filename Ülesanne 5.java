@@ -1,3 +1,7 @@
+// Dajana
+// 27.02.2024
+// Ülesanne 5
+
 // Temperatuuri kontroll
 let temperatuur = 20; 
 if (temperatuur > 25) {
