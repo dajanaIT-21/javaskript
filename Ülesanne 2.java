@@ -42,4 +42,4 @@ let andmed = andmerida.split(',');
 let email = andmed[3];
 let kasutajanimi = email.substring(0, email.indexOf('@'));
 let ipaadress = andmed[5];
-console.log(ipaadress, kasutajanimi
+console.log(ipaadress, kasutajanimi);
