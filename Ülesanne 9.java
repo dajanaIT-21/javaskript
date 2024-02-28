@@ -1,6 +1,8 @@
 // Dajana
 // 28.02.2024
 // Ülesanne 9
+// const = kasutatakse muutuja defineerimiseks, mille väärtus jääb püsivaks ega muutu pärast seda, kui see on määratud,
+// functsion = defineerib funktsiooni, parseint = loeb ainult arve
 
 // Klassikaline funktsioon nime väljastamiseks
 function minunimi() {
