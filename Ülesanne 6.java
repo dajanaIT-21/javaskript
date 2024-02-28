@@ -1,6 +1,8 @@
 // Dajana
 // 27.02.2024
 // Ülesanne 6
+// switch = kasutatakse juhtumite v tingimuste hindamiseks, case = kasutatakse switchiga võrdlemiseks
+// default = kasutatakse kui sisestatud number ei sobi ühegi case-iga 
 
 // Positiivne või negatiivne
 let number = -5;
