@@ -1,6 +1,7 @@
 // Dajana
 // 27.02.2024
 // Ülesanne 2
+// let = muutuja, console.log = väljastab
 
 // Kellaaeg
 let tunnid = 2;
