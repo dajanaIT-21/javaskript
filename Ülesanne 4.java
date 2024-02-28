@@ -1,6 +1,7 @@
 // Dajana
 // 27.02.2024
 // Ülesanne 4
+// push =  lisab uue elemendi massiivi lõppu, sort = sorteerib
 
 // Paranda massiivi ja kuvage selle elemendid
 let nadalapaevad = ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede"];
