@@ -1,6 +1,7 @@
 // Dajana
 // 27.02.2024
 // Ülesanne 7
+// products.foreach = võimaldab läbida igal elemendil massiivist, +1 on sellesk et esimese elemendina oleks 1 mitte 0
 
 // Tooted
 const products = ["Õunad", "Piim", "Leib", "Juust", "Tomatid", "Kanafilee", "Muna", "Sibul", "Apelsinid", "Riis", "Jogurt", "Kartul", "Kalafilee", "Pasta", "Jogurtijook", "Porgandid", "Virsikud", "Pähklid", "Rosinad", "Kapsas", "Kreeka jogurt", "Veiseliha", "Banaanid", "Oliivid", "Mandlid", "Magus kartul", "Greibid"];
