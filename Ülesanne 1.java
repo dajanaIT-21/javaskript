@@ -1,7 +1,8 @@
 // Dajana
 // 27.02.2024
 // Ülesanne 1
-
+// typeof = väljastab tüübi
+ 
 console.log(typeof 4.2);           
 console.log(typeof 'Will Code 4 food'); 
 console.log(typeof "123");      
