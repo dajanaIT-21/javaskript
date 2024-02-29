@@ -6,12 +6,12 @@
 
 // Klassikaline funktsioon nime väljastamiseks
 function minunimi() {
-    console.log("Sinu nimi");
+    console.log("Dajana Mähdi");
 }
 
 // Noolefunktsioon nime väljastamiseks
 const minuniminool = () => {
-    console.log("Sinu nimi");
+    console.log("Dajana Mähdi");
 };
 
 // Funktsioon kuupäeva kuvamiseks eesti keeles
