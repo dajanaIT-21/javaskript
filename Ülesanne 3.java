@@ -32,4 +32,4 @@ console.log("Voolutarbimine:", voolutarbimine, "kWh");
 
 // Arvutame töökulu eurodes
 let tookulu = voolutarbimine * elektrihind;
-console.log("Töökulu ühe tunni jooksul:", tookulu.toFixed(2), "eurot");
+console.log("Töökulu ühe tunni jooksul:", tookulu.tofixed(2), "eurot");
