@@ -1,6 +1,7 @@
 // Dajana
 // 28.02.2024
 // Ülesanne 10
+// for = tsükkel aitab kuvada ostukorvi sisu, logides konsooli iga toote nime, hinna ja koguse.
 
 // Toote objekt
 const toode = {
