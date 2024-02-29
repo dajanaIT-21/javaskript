@@ -1,6 +1,8 @@
 // Dajana
 // 28.02.2024
 // Ülesanne 12
+// li = loob uue html li elemendi, getelementbyid = kasutatakse dokumendis olevate elementide leidmiseks
+// reduce = masiivi elementide kokkuvõtmiseks, tofixed = muudab arvu stringiks säilitades kindla arvu komaarve
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,8 +27,8 @@
             ]
         };
 
-        const ostukorvielement = document.getelementbyId("ostukorv");
-        const koguSummaelement = document.getelementbyId("kogusumma");
+        const ostukorvielement = document.getelementbyid("ostukorv");
+        const koguSummaelement = document.getelementbyid("kogusumma");
 
         // Lisame ostukorvi sisu loendisse
         ostukorv.tooted.foreach(toode => {
