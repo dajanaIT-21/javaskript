@@ -1,5 +1,5 @@
 // Dajana
-// 28.02.2024
+// 18.06.2024
 // Ülesanne 9
 // const = kasutatakse muutuja defineerimiseks, mille väärtus jääb püsivaks ega muutu pärast seda, kui see on määratud,
 // functsion = defineerib funktsiooni, parseint = loeb ainult arve
@@ -14,12 +14,12 @@
 <body>
     <script>
         // Klassikaline funktsioon nime väljastamiseks
-        function minunimi() {
+        function klassikaline() {
             console.log("Dajana Mähdi");
         }
 
         // Noolefunktsioon nime väljastamiseks
-        const minuniminool = () => {
+        const noolefunktsioon = () => {
             console.log("Dajana Mähdi");
         };
 
@@ -31,7 +31,7 @@
         }
 
         // Funktsioon teadmata hulga täisarvude koguarvu ja keskmise arvu arvutamiseks
-        const kogukeskmis = (...arvud) => {
+        const teadmatahulk = (...arvud) => {
             const summa = arvud.reduce((acc, cur) => acc + cur, 0);
             const keskmine = summa / arvud.length;
             return [summa, keskmine];
@@ -55,12 +55,12 @@
         };
 
         // Testime funktsioone
-        minunimi();
-        minuniminool();
+        klassikaline();
+        noolefunktsioon();
         kuupaeveesti("19.07.23");
-        console.log(kogukeskmis(1, 2, 3, 4, 5)); // [15, 3]
-        console.log(salajanesonum("Tsau Mario!")); // "T*r*, m**l*m!"
-        console.log(leiaunikaalsednimed(["Kati", "Mati", "Kati", "Mari", "Mati", "Jüri"])); // ["Kati", "Mati", "Mari", "Jüri"]
+        console.log((1, 2, 3, 4, 5));
+        console.log(salajanesonum("Tsau Mario!")); 
+        console.log(leiaunikaalsednimed(["Kati", "Mati", "Kati", "Mari", "Mati", "Jüri"]));
 
 
 
