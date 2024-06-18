@@ -1,5 +1,5 @@
 // Dajana
-// 28.02.2024
+// 18.06.2024
 // Ülesanne 10
 // for = tsükkel aitab kuvada ostukorvi sisu, logides konsooli iga toote nime, hinna ja koguse.
 
@@ -46,11 +46,11 @@
         // Ostukorv
         const ostukorv = {
         tooted: [
-            { nimi:'Piim', hind:3.60, kogus:2 },
-            { nimi:'Leib', hind:2.00, kogus:1 },
-            { nimi:'Munad', hind:1.50, kogus:6 },
-            { nimi:'Juust', hind:4.20, kogus:1 },
-            { nimi:'Tomatid', hind:2.30, kogus:3 },
+            { nimi:'Piim', hind:3.60, kogus:3 },
+            { nimi:'Leib', hind:2.00, kogus:5 },
+            { nimi:'Munad', hind:1.50, kogus:10 },
+            { nimi:'Juust', hind:4.20, kogus:3 },
+            { nimi:'Tomatid', hind:2.30, kogus:6 },
         ],
 
         kogusumma: function() {
