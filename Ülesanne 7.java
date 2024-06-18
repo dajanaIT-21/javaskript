@@ -1,5 +1,5 @@
 // Dajana
-// 27.02.2024
+// 18.06.2024
 // Ülesanne 7
 // products.foreach = võimaldab läbida igal elemendil massiivist, +1 on sellesk et esimese elemendina oleks 1 mitte 0
 
@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScripti kood</title>
+    <title>Ülesanne 7</title>
 </head>
 <body>
     <script>
@@ -22,7 +22,7 @@
         });
 
         // Tooted - 10 esimest, vahele jäetakse "Muna", "Sibul" ja "Riis"
-        console.log("\nTooted (10 esimest, vahele jäetakse 'Muna', 'Sibul' ja 'Riis'):");
+        console.log("\nTooted (10 esimest, vahele jäetakse Muna, Sibul ja Riis):");
         let count = 0;
         for (let product of products) {
             if (product === "Muna" || product === "Sibul" || product === "Riis") continue;
