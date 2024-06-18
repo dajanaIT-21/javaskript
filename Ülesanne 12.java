@@ -1,5 +1,5 @@
 // Dajana
-// 28.02.2024
+// 18.06.2024
 // Ülesanne 12
 // li = loob uue html li elemendi, getelementbyid = kasutatakse dokumendis olevate elementide leidmiseks
 // reduce = masiivi elementide kokkuvõtmiseks, tofixed = muudab arvu stringiks säilitades kindla arvu komaarve
@@ -19,11 +19,11 @@
     <script>
          const ostukorv = {
     tooted: [
-        { nimi: 'Piim', hind: 3.60, kogus: 2 },
-        { nimi: 'Leib', hind: 2.00, kogus: 1 },
-        { nimi: 'Munad', hind: 1.50, kogus: 6 },
-        { nimi: 'Juust', hind: 4.20, kogus: 1 },
-        { nimi: 'Tomatid', hind: 2.30, kogus: 3 },
+        { nimi:'Piim', hind: 3.60, kogus: 3 },
+        { nimi:'Leib', hind: 2.00, kogus: 2 },
+        { nimi:'Munad', hind: 1.50, kogus: 10 },
+        { nimi:'Juust', hind: 4.20, kogus: 2 },
+        { nimi:'Tomatid', hind: 2.30, kogus: 6 },
     ]
 };
 
@@ -42,7 +42,7 @@ if (ostukorvielement && koguSummaelement) {
     const kogusumma = ostukorv.tooted.reduce((summa, toode) => summa + (toode.hind * toode.kogus), 0);
     koguSummaelement.textContent = `Ostukorvi kogu summa: ${kogusumma.toFixed(2)} EUR`;
 } else {
-    console.error("Element with ID 'ostukorv' or 'kogusumma' not found.");
+    console.error("Element with ID ostukorv or kogusumma not found.");
 }
 
 
