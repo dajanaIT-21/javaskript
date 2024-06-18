@@ -1,5 +1,5 @@
 // Dajana
-// 28.02.2024
+// 18.06.2024
 // Ülesanne 11
 
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
         }
 
         // Funktsioon, mis otsib inimeste nime järgi
-        function otsiNime(nimi) {
+        function otsinime(nimi) {
         const inimesteandmed = [
         { nimi: "Mari Maasikas", isikukood: "38705123568" },
         { nimi: "Jaan Jõesaar", isikukood: "49811234567" },
