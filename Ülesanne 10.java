@@ -77,9 +77,9 @@
         ostukorv.kuvasisu();
 
         // Lisa tooteid ostukorvi
+        
+        ostukorv.lisatoode("Kohv", 5.80, 3);
         console.log("Lisa toode 'Kohv' ostukorvi:");
-        ostukorv.lisatoode("Kohv", 5.80, 6);
-        console.log("Toode lisatud ostukorvi.");
 
         // Kuva ostukorvi summa
         console.log('Ostukorvi kogu summa:', ostukorv.kogusumma());
