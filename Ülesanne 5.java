@@ -31,10 +31,10 @@
         }
 
         // Ürituse piletite hind
-        let piletituup = "sooduspilet"; 
+        let pilet = "sooduspilet"; 
         let vanus = 5; 
 
-        if (piletituup === "täispilet") {
+        if (pilet === "täispilet") {
             if (vanus < 18) {
                 console.log("Pileti hind: 10 eurot");
             } else if (vanus >= 18 && vanus <= 64) {
@@ -42,7 +42,7 @@
             } else {
                 console.log("Pileti hind: 15 eurot");
             }
-        } else if (piletituup === "sooduspilet") {
+        } else if (pilet === "sooduspilet") {
             if (vanus < 18 || vanus >= 65) {
                 console.log("Pileti hind: 8 eurot");
             } else {
