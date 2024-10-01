@@ -24,7 +24,7 @@
         console.log("Lisatud massiivi elemendid:", nadalapaevad);
 
         // Sorteeri elemendid kahanevalt
-        nadalapaevad.sort().reverse();
+        nadalapaevad.reverse();
         console.log("Sorteeritud kahanevas järjekorras:", nadalapaevad);
 
         // Kuva viimane element
