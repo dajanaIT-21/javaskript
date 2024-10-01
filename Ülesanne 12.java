@@ -9,48 +9,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ülesanne 12</title>
+   
+
+    <title>ulesanne12</title>
+    
 </head>
+
 <body>
 
-     <h1>OSTUKORV</h1>
+    <h1>Ostukorv</h1>
+
+    <ul id="ostukorv">
+
+    </ul>
+
+    <p id="kogusumma">Kogusumma: <span id="summa">0</span> </p>
+
+
+<script> 
+
+
+// Kasutame Ülesanne 10 koodi ja lisame ostukorvi esemeid
+const ostukorv = [
+            { nimi: "Piim", hind: 4.99, kogus: 2 },
+            { nimi: "Mario plushie", hind: 50.99, kogus: 1 },
+            { nimi: "Holy Cross", hind: 9.99, kogus: 3 }
+        ];
+
+        const ostukorviElement = document.getElementById('ostukorv');
+        const kogusummaElement = document.getElementById('summa');
+
+        // Lisame iga ostukorvi eseme HTML-lehele
+        ostukorv.forEach(asjainf => {
+            const liElement = document.createElement('li');
+            liElement.textContent = `${asjainf.nimi} - ${asjainf.hind} € x ${asjainf.kogus}`;
+            ostukorviElement.appendChild(liElement);
+        });
+
+        // Arvutame kogusumma
+        const kogusumma = ostukorv.reduce((sum, asja) => sum + asja.hind * asja.kogus, 0);
+        kogusummaElement.textContent = kogusumma.toFixed(2) + ' €';
+
+</script>
+
     
-    <div id="ostukorv"></div>
-    <div id="kogusumma"></div>
-
-    <script>
-         const ostukorv = {
-    tooted: [
-        { nimi:'Piim', hind: 3.60, kogus: 3 },
-        { nimi:'Leib', hind: 2.00, kogus: 2 },
-        { nimi:'Munad', hind: 1.50, kogus: 10 },
-        { nimi:'Juust', hind: 4.20, kogus: 2 },
-        { nimi:'Tomatid', hind: 2.30, kogus: 6 },
-    ]
-};
-
-const ostukorvielement = document.getElementById("ostukorv");
-const koguSummaelement = document.getElementById("kogusumma");
-
-if (ostukorvielement && koguSummaelement) {
-    // Lisame ostukorvi sisu loendisse
-    ostukorv.tooted.forEach(toode => {
-        const listitem = document.createElement("li");
-        listitem.textContent = `${toode.nimi} - ${toode.hind} EUR - Kogus: ${toode.kogus}`;
-        ostukorvielement.appendChild(listitem);
-    });
-
-    // Arvutame ostukorvi kogusumma
-    const kogusumma = ostukorv.tooted.reduce((summa, toode) => summa + (toode.hind * toode.kogus), 0);
-    koguSummaelement.textContent = `Ostukorvi kogu summa: ${kogusumma.toFixed(2)} EUR`;
-} else {
-    console.error("Element with ID ostukorv or kogusumma not found.");
-}
-
-
-
-
-
-    </script>
 </body>
 </html>
