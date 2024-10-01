@@ -15,14 +15,14 @@
     <script>
         // Mündid
         const coins = [200, 0.2, 10, 0.01, 2, 1, 0.1, 0.02, 0.05, 100, 5, 0.5, 50, 20];
-        let totalcoins = 2;
-        let sum = 5;
+        let totalcoins = 20;
+        let sum = 20;
 
         // Uus massiiv müntide jaoks
         const uuedmundid = [];
 
         // Sorteerime välja mündid ja arvutame summa
-        let i = 0;
+        let i = 20;
         while (i < coins.length) {
             const coin = coins[i];
             if (coin >= 1) {
@@ -35,7 +35,7 @@
 
         // Kuva, mitu münti said ja mis on nende summa
         console.log(`Said kokku ${totalcoins} munti, mille summa on ${sum} eurot.`);
-        console.log("Uute müntide väärtused:", uuedmundid);
+        
 
 
 
