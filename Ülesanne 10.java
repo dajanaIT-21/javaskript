@@ -16,7 +16,7 @@
         const toode = {
         nimetus: 'Piim',
         hind: 1.20,
-        kogus: 5,
+        kogus: 78,
         koguhind: function() {
             return this.hind * this.kogus;
         },
@@ -38,10 +38,10 @@
 
 
         console.log("Toote koguhind:", toode.koguhind());
-        toode.muudakogus(10);
+        toode.muudakogus(65);
         console.log("Uus kogus:", toode.kogus);
-        console.log("Toote sisu:");
-        console.log(toode.kuvasisu());
+        console.log("Toote sisu:", toode.kuvasisu());
+
 
         // Ostukorv
         const ostukorv = {
@@ -77,7 +77,8 @@
         ostukorv.kuvasisu();
 
         // Lisa tooteid ostukorvi
-        ostukorv.lisatoode('Kohv', 5.80, 2);
+        console.log("Lisa toode 'Kohv' ostukorvi:");
+        ostukorv.lisatoode("Kohv", 5.80, 6);
         console.log("Toode lisatud ostukorvi.");
 
         // Kuva ostukorvi summa
