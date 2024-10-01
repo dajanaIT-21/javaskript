@@ -16,21 +16,21 @@
         <h1 class="display-1">Pildid</h1>
         <div class="card-group">
             <div class="card" style="width: 18rem;">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="..." data-title="Jumal Mario" data-description="Amen">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="..." data-title="Jumal Mario" data-description="Amen">
                 <div class="card-body">
                   <h5 class="card-title">AMEN</h5>
                   <p class="card-text">AMEN</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="..." data-title="Pühak Mario" data-description="Amen">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="..." data-title="Palun pane mulle 3" data-description="Amen">
                 <div class="card-body">
                   <h5 class="card-title">AMEN</h5>
                   <p class="card-text">AMEN</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="..." data-title="Palun pane mulle 3" data-description="Amen">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="..." data-title="Jään sulle kommikarbi võlgu" data-description="Amen">
                 <div class="card-body">
                   <h5 class="card-title">AMEN</h5>
                   <p class="card-text">AMEN</p>
@@ -61,4 +61,3 @@
     </script>
 </body>
 </html>
-
